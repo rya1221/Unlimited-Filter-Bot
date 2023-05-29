@@ -16,7 +16,7 @@ class Config(object):
     
     
     # Database URL from https://cloud.mongodb.com/
-    DATABASE_URI = os.environ.get("DATABASE_URI", "")
+    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://arya:arya@cluster0.fmoiykc.mongodb.net/?retryWrites=true&w=majority")
 
 
     # Your database name from mongoDB
@@ -24,7 +24,7 @@ class Config(object):
 
 
     # ID of users that can use the bot commands
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "5996402555").split())
 
 
     # To save user details (Usefull for getting userinfo and total user counts)
