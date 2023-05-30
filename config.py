@@ -4,7 +4,7 @@ import time
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6134385705:AAEQ_6-4ZfqrZ-7Oxi-yu4LzRLrGkHJR_HM")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", 5909816704:AAGoYuuL50cEXs6S3boGSY8MmbcPPdFMReQ")
 
 
     # Get from my.telegram.org (or @UseTGXBot)
@@ -16,7 +16,7 @@ class Config(object):
     
     
     # Database URL from https://cloud.mongodb.com/
-    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://arya:arya@cluster0.fmoiykc.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://arya:arya@cluster0.rmkvo2n.mongodb.net/?retryWrites=true&w=majority")
 
 
     # Your database name from mongoDB
@@ -24,7 +24,7 @@ class Config(object):
 
 
     # ID of users that can use the bot commands
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "5996402555").split())
+    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "-5996402555").split())
 
 
     # To save user details (Usefull for getting userinfo and total user counts)
