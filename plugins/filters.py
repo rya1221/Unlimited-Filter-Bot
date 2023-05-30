@@ -7,7 +7,7 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 if bool(os.environ.get("WEBHOOK", False)):
-    from sample_config import Config
+    from config import Config
 else:
     from config import Config
 
